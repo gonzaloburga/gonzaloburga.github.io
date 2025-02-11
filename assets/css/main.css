@@ -3510,3 +3510,15 @@ input, select, textarea {
 			}
 
 	}
+	.profile-photo {
+		width: 270px; /* Tamaño de la imagen */
+		height: 320px; /* Tamaño de la imagen */
+		border-radius: 50%; /* Forma circular */
+		object-fit: cover; /* Ajuste de imagen */
+		position: relative; /* Para ajustar con top y left */
+		top: 30px; /* Mueve la imagen hacia abajo */
+		left: 220px; /* Mueve la imagen hacia la derecha */
+		box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3); /* Sombra */
+	}
+	
+	
